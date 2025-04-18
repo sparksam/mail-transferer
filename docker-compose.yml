@@ -1,0 +1,7 @@
+services:
+
+  mail-transferer:
+    image: samuelklutse/mail-transferer
+    hostname: mail-transferer
+    container_name: mail-transferer
+    env_file: ./env
